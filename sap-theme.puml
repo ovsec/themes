@@ -1,7 +1,8 @@
 @startuml
 
+
 skinparam {
-  FontName Source Code Pro
+  
   FontStyle normal
   FontColor #333333
   FontSize 12
@@ -10,33 +11,39 @@ skinparam {
   DefaultBackgroundColor #F5F5F5
   CanvasBackgroundColor #FFFFFF
 
-  BorderColor #666666
-  BorderThickness 1
-  ArrowColor #666666
-  ArrowThickness 1
+  
   Shadowing false
 
-  ComponentBackgroundColor #208bde50
-  ComponentBorderColor #208bde
+  ComponentBackgroundColor #FFFFFF
+  ComponentBorderColor #0070F2
+  ComponentBorderThickness 1
   ComponentFontColor #333333
   ComponentFontSize 12
+  ComponentFontStyle bold
   ComponentStereotypeFontSize 10
+  
+  
 
-  PackageBackgroundColor #208bde50
-  PackageBorderColor #208bde
+  PackageBackgroundColor #EBF8FF
+  PackageBorderColor #0070F2
+  PackageBorderThickness 1
   PackageFontColor #333333
+  PackageStyle frame 
 
   LineType ortho
   ArrowFontColor #333333
   ArrowFontSize 10
-
+  ArrowColor #0070F2
+  ArrowThickness 1
+  
   NodeBackgroundColor #208bde
   NodeBorderColor #666666
   NodeFontColor #333333
 
-  TitleFontColor #333333
-  TitleFontSize 14
-  TitleFontName Source Code Pro
+  TitleFontColor #0D32B2
+  TitleFontSize 16
+  TitleFontStyle bold
+  
 }
 
 skinparam monochrome false
