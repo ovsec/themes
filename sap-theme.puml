@@ -1,0 +1,47 @@
+@startuml
+
+skinparam {
+  FontName Source Code Pro
+  FontStyle normal
+  FontColor #333333
+  FontSize 12
+
+  BackgroundColor transparent
+  DefaultBackgroundColor #F5F5F5
+  CanvasBackgroundColor #FFFFFF
+
+  BorderColor #666666
+  BorderThickness 1
+  ArrowColor #666666
+  ArrowThickness 1
+  Shadowing false
+
+  ComponentBackgroundColor #208bde50
+  ComponentBorderColor #208bde
+  ComponentFontColor #333333
+  ComponentFontSize 12
+  ComponentStereotypeFontSize 10
+
+  PackageBackgroundColor #208bde50
+  PackageBorderColor #208bde
+  PackageFontColor #333333
+
+  LineType ortho
+  ArrowFontColor #333333
+  ArrowFontSize 10
+
+  NodeBackgroundColor #208bde
+  NodeBorderColor #666666
+  NodeFontColor #333333
+
+  TitleFontColor #333333
+  TitleFontSize 14
+  TitleFontName Source Code Pro
+}
+
+skinparam monochrome false
+skinparam classAttributeIconSize 0
+skinparam padding 2
+skinparam roundCorner 8
+
+@enduml
