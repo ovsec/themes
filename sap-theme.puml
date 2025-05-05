@@ -1,6 +1,6 @@
-@startuml
+@startuml sap-theme
 
-
+skinparam defaultFontName "Helvetica"
 skinparam {
   
   FontStyle normal
