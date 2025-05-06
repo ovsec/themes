@@ -1,18 +1,26 @@
 @startuml sap-theme
 
+
+
 skinparam defaultFontName "Helvetica"
+skinparam defaultTextAlignment center
+skinparam monochrome false
+skinparam classAttributeIconSize 0
+skinparam padding 2
+skinparam roundCorner 8
+skinparam shadowing false
+
 skinparam {
   
   FontStyle normal
-  FontColor #333333
+  FontColor #111111
+  DefaultFontColor #333333
   FontSize 12
-
-  BackgroundColor transparent
-  DefaultBackgroundColor #F5F5F5
-  CanvasBackgroundColor #FFFFFF
-
   
-  Shadowing false
+  BackgroundColor transparent
+  DefaultBackgroundColor #FFFFFF
+  CanvasBackgroundColor transparent
+
 
   ComponentBackgroundColor #FFFFFF
   ComponentBorderColor #0070F2
@@ -21,17 +29,30 @@ skinparam {
   ComponentFontSize 12
   ComponentFontStyle bold
   ComponentStereotypeFontSize 10
-  
-  
+  componentStyle rectangle
+  BackgroundColor<<legacy>> #ed985b60
+  BorderColor<<legacy>> #ed985b
+  FontColor<<legacy>> #333333
 
-  PackageBackgroundColor #EBF8FF
+  PackageBackgroundColor #EBF8FF90
   PackageBorderColor #0070F2
   PackageBorderThickness 1
   PackageFontColor #333333
   PackageStyle frame 
 
+  RectangleBackgroundColor #FFFFFF
+  RectangleBorderColor #0070F2
+  RectangleBorderThickness 1
+  RectangleFontColor #333333
+  RectangleFontSize 12
+  RectangleFontStyle bold
+  RectangleBackgroundColor<<legacy>> #ed985b60
+  RectangleBorderColor<<legacy>> #ed985b
+  RectangleFontColor<<legacy>> #333333
+
+
   LineType ortho
-  ArrowFontColor #333333
+  ArrowFontColor #111111
   ArrowFontSize 10
   ArrowColor #0070F2
   ArrowThickness 1
@@ -43,12 +64,22 @@ skinparam {
   TitleFontColor #0D32B2
   TitleFontSize 16
   TitleFontStyle bold
+  TitleFontName Helvetica
+  
+  NoteBackgroundColor #F5F5F5
+  NoteBorderColor #0070F2
+  NoteBorderThickness 1
+  NoteFontColor #333333
+  NoteFontSize 10
+  NoteFontStyle normal
+
+  LegendBorderThickness 0
+  LegendFontSize 9
+  LegendFontColor #333333
   
 }
 
-skinparam monochrome false
-skinparam classAttributeIconSize 0
-skinparam padding 2
-skinparam roundCorner 8
+
+
 
 @enduml
