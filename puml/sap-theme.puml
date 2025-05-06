@@ -70,12 +70,13 @@ skinparam {
   NoteBorderColor #0070F2
   NoteBorderThickness 1
   NoteFontColor #333333
-  NoteFontSize 10
+  NoteFontSize 9
   NoteFontStyle normal
 
   LegendBorderThickness 0
   LegendFontSize 9
   LegendFontColor #333333
+  LegendBackgroundColor transparent
   
 }
 

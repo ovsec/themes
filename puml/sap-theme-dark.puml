@@ -1,0 +1,78 @@
+@startuml sap-theme-dark
+
+skinparam defaultFontName "Helvetica"
+skinparam defaultTextAlignment center
+skinparam monochrome false
+skinparam classAttributeIconSize 0
+skinparam padding 2
+skinparam roundCorner 8
+skinparam shadowing false
+
+skinparam {
+
+  FontStyle normal
+  FontColor #eeeeee
+  DefaultFontColor #dddddd
+  FontSize 12
+
+  BackgroundColor #111111
+  DefaultBackgroundColor #111111
+  CanvasBackgroundColor #111111
+
+  ComponentBackgroundColor #111111
+  ComponentBorderColor #0070F2
+  ComponentBorderThickness 1
+  ComponentFontColor #ffffff
+  ComponentFontSize 12
+  ComponentFontStyle bold
+  ComponentStereotypeFontSize 10
+  componentStyle rectangle
+  BackgroundColor<<legacy>> #4a3a2660
+  BorderColor<<legacy>> #c29d64
+  FontColor<<legacy>> #ffffff
+
+  PackageBackgroundColor #FFFFFF10
+  PackageBorderColor #0070F2
+  PackageBorderThickness 1
+  PackageFontColor #ffffff
+  PackageStyle frame
+
+  RectangleBackgroundColor #FFFFFF10
+  RectangleBorderColor #0070F2
+  RectangleBorderThickness 1
+  RectangleFontColor #ffffff
+  RectangleFontSize 12
+  RectangleFontStyle bold
+  RectangleBackgroundColor<<legacy>> #7f6342
+  RectangleBorderColor<<legacy>> #c29d64
+  RectangleFontColor<<legacy>> #ffffff
+
+  LineType ortho
+  ArrowFontColor #ffffff
+  ArrowFontSize 10
+  ArrowColor #0070F2
+  ArrowThickness 1
+
+  NodeBackgroundColor #0070F2
+  NodeBorderColor #999999
+  NodeFontColor #ffffff
+
+  TitleFontColor #00AFFF
+  TitleFontSize 16
+  TitleFontStyle bold
+  TitleFontName Helvetica
+
+  NoteBackgroundColor #333333
+  NoteBorderColor #00AFFF
+  NoteBorderThickness 1
+  NoteFontColor #eeeeee
+  NoteFontSize 9
+  NoteFontStyle normal
+
+  LegendBorderThickness 0
+  LegendFontSize 9
+  LegendFontColor #eeeeee
+  LegendBackgroundColor transparent
+}
+
+@enduml
