@@ -47,6 +47,13 @@ skinparam {
   RectangleBorderColor<<legacy>> #c29d64
   RectangleFontColor<<legacy>> #ffffff
 
+  ActivityBackgroundColor #FFFFFF10
+  ActivityBorderColor #0070F2
+  ActivityBorderThickness 1
+  ActivityFontColor #ffffff
+  ActivityFontSize 12
+  ActivityFontStyle bold
+
   LineType ortho
   ArrowFontColor #ffffff
   ArrowFontSize 10
